@@ -1,0 +1,27 @@
+{
+  "name": "chattr",
+  "version": "1.0.0",
+  "description": "A simple chat app made using socket.io, node and express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "socket.io",
+    "node",
+    "express",
+    "chattr",
+    "chat"
+  ],
+  "author": "Alok Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
